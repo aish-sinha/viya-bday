@@ -100,6 +100,16 @@ aish`,
             message: `Viya omg Happy Birthdayyyyy 🥳🥳🥳🥳🥳🥳🥳🥳🎉🎉🎉🎉 nicest person ever, and a twice fan, literally perfect what more could you ask for 🙄🙄 MISS YOU SO MUCH i hope you’re having a great time in Singapore and everyone there knows how cool you are 🤗`,
             category: "friends",
             date: "2025-06-22"
+        },
+        {
+            sender: "Shania",
+            message: `Hi Viyaaa.
+HAPPPY BIRTHDAYYYYYY !!!!!  :) 🎂 🎉
+I hope you have an amazing birthday day full of fun and happiness. We misss you so very much and would really wish we could meet you in person to say happy birthday. Everytime i think of you i always associate you to music and remember your amazing voice.I have loved every cover you have ever put out and hope you gift us with more. You are one of the only people to have genuinely made me feel open singing. I have never really tried singing with anyone but i only remember all the short lived but fun times of having met you. You are just a bundle of absolute joy and happiness with your adorable smile and i only hope that for the years to come that smile never fades away. Please keep being an amazing friend to everyone you meet forever after.
+AND KEEP SINGING PLS I NEED MORE COVERS TO SURVIVE. :)))
+Love Shania`,
+            category: "friends",
+            date: "2025-06-22"
         }
     ];
 
