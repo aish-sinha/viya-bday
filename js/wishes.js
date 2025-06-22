@@ -110,6 +110,23 @@ AND KEEP SINGING PLS I NEED MORE COVERS TO SURVIVE. :)))
 Love Shania`,
             category: "friends",
             date: "2025-06-22"
+        },
+        {
+            sender: "Shania",
+            message: `To my Singaporean baddie,
+
+Happy Birthday! 🎉💖
+
+Even though you're far away in Singapore, you’re still surrounded by love. You’re stronger than you know, and no tough day can change how special you are.
+
+If you’re ever feeling angry, sad or overwhelmed don’t forget how loved, brave, and amazing you are.
+
+The world is lucky to have you in it, and no matter where you go, you’ll keep making it brighter, just by being the sweet person you are.
+
+Lots of love,
+Vernika`,
+            category: "friends",
+            date: "2025-06-22"
         }
     ];
 
