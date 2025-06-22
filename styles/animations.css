@@ -1,0 +1,212 @@
+/* ========== ANIMATIONS ========== */
+/* Floating Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Page Transition */
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-out {
+    animation: fadeOut 1s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Button Pulse */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Sparkle Animation */
+@keyframes sparkle {
+    0% { opacity: 0; transform: scale(0); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 0; transform: scale(0); }
+}
+
+.sparkle {
+    position: absolute;
+    background: radial-gradient(circle, white 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: sparkle 1s forwards;
+}
+
+/* Envelope Open Animation */
+@keyframes envelopeOpen {
+    0% { transform: rotateX(0); }
+    50% { transform: rotateX(-90deg); }
+    100% { transform: rotateX(-180deg); }
+}
+
+.envelope-open {
+    animation: envelopeOpen 0.8s forwards;
+}
+
+/* Letter Appearance */
+@keyframes letterAppear {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.letter-appear {
+    animation: letterAppear 0.8s ease-out forwards;
+}
+
+/* Confetti Animation */
+@keyframes confettiFall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--blush);
+    opacity: 0;
+    animation: confettiFall 3s linear forwards;
+    z-index: 100;
+}
+
+/* Heart Beat Animation */
+@keyframes heartBeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.heart-beat {
+    animation: heartBeat 1.5s infinite;
+}
+
+/* Floating Up Animation */
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.float-up {
+    animation: floatUp 3s ease-in-out infinite;
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+.shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.rotate {
+    animation: rotate 10s linear infinite;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Wobble Animation */
+@keyframes wobble {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+}
+
+.wobble {
+    animation: wobble 1s ease-in-out infinite;
+}
+
+/* Scale In Animation */
+@keyframes scaleIn {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+}
+
+/* Glow Animation */
+@keyframes glow {
+    0%, 100% { box-shadow: 0 0 10px rgba(255, 214, 224, 0.7); }
+    50% { box-shadow: 0 0 30px rgba(255, 214, 224, 0.9); }
+}
+
+.glow {
+    animation: glow 2s infinite alternate;
+}
