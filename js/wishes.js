@@ -112,7 +112,7 @@ Love Shania`,
             date: "2025-06-22"
         },
         {
-            sender: "Shania",
+            sender: "Vernika",
             message: `To my Singaporean baddie,
 
 Happy Birthday! 🎉💖
