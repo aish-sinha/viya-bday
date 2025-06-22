@@ -94,6 +94,12 @@ aish`,
 ~ shelin`,
             category: "friends",
             date: "2025-06-22"
+        },
+        {
+            sender: "Sarah",
+            message: `Viya omg Happy Birthdayyyyy 🥳🥳🥳🥳🥳🥳🥳🥳🎉🎉🎉🎉 nicest person ever, and a twice fan, literally perfect what more could you ask for 🙄🙄 MISS YOU SO MUCH i hope you’re having a great time in Singapore and everyone there knows how cool you are 🤗`,
+            category: "friends",
+            date: "2025-06-22"
         }
     ];
 
